@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html{
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-size: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #850E35, #EE6983);
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: 100vh;
+}
